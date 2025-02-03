@@ -15,7 +15,7 @@ Before setting up the backend, ensure that you have the following installed:
 **1. Clone the Repository**
 First, clone the backend repository to your local machine:
 
-- git clone https://github.com/your-username/calories-tracker-backend.git
+- git clone https://github.com/sudhanshuTech14/calories-tracker-backend.git
 - cd calories-tracker-backend
 
 **2. Create a Virtual Environment**
