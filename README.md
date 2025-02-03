@@ -1,4 +1,5 @@
-Backend Setup for Calories Tracker
+**Backend Setup for Calories Tracker**
+
 This is the backend for the Calories Tracker project, built with Django and PostgreSQL. This guide will help you set up the backend locally.
 
 **Prerequisites**
