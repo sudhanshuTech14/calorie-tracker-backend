@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import FoodListCreateView, FoodDetailView, ConsumeListCreateView, ConsumeDetailView
+from .views import ConsumeByDateView, FoodListCreateView, FoodDetailView, ConsumeListCreateView, ConsumeDetailView
 from .views import RegisterView, LogoutView
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
@@ -8,6 +8,7 @@ urlpatterns = [
     path('foods/<int:pk>/', FoodDetailView.as_view(), name='food-detail'),
     path('consume/', ConsumeListCreateView.as_view(), name='consume-list-create'),
     path('consume/<int:pk>/', ConsumeDetailView.as_view(), name='consume-detail'),
+    path('consumed-foods-by-date/', ConsumeByDateView.as_view(), name='consumed-by-date'),
     path('register/', RegisterView.as_view(), name='register'),
     path('login/', TokenObtainPairView.as_view(), name='login'),
     path('logout/', LogoutView.as_view(), name='logout'),
